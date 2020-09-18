@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - compareStr",
+            "request": "launch",
+            "mainClass": "compareStr",
+            "projectName": "javaCode_fb3f68a8"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - hello",
             "request": "launch",
             "mainClass": "hello",
