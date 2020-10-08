@@ -19,14 +19,14 @@ public class reverse {
         int sum=0;
         for (int item : arr) {
             sum = sum + item;
-        }
+        }//增强for循环，一定要指定遍历对象(这里是arr)
         return sum;
     }
     private static void printArr(int[] arr){
-        int cnt;
-        for (cnt=0;cnt<arr.length;cnt++){
-            System.out.print(arr[cnt]);
+        for (int item : arr) {
+            System.out.print(item);
         }
+        System.out.print("\n");
     }
     private static void insertArrReverse(int n,int[] arr){
         int i=0;
