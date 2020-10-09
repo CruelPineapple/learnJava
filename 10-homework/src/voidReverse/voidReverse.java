@@ -2,7 +2,8 @@ package voidReverse;
 
 public class voidReverse {
     public static void main(String[] args){
-        reverse(265);
+        int num=23453;
+        reverse(num);
     }
     private static void reverse(int n){
         int length=0;
