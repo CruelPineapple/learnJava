@@ -24,13 +24,16 @@ public class counter {
         if (scan.hasNext()){
             String str=scan.next();
             char[] chars=str.toCharArray();
-            double sum = 0;
+            double sum;
             switch (chars[0]) {
                 case '+' -> sum = num1 + num2;
                 case '-' -> sum = num1 - num2;
                 case '*' -> sum = num1 * num2;
                 case '/' -> sum = num1 / num2;
-                default -> System.out.println("输入的不是运算符！");
+                default -> {
+                    System.out.println("输入的不是运算符！");
+                    return;
+                }
             }//增强switch
             System.out.println(num1+""+chars[0]+num2+"="+sum);
         }
