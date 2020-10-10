@@ -9,6 +9,7 @@ public class intMax {
         }else if (c>a&&c>b){
             return c;
         }else {
+            System.out.println("没有最大数");
             return -1;
         }
     }
