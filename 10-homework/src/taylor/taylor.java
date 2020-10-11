@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class taylor {
     public static void main(String [] args){
         Scanner scan=new Scanner(System.in);
+//        String[] s = scan.nextLine().split(" ");
         double x=Double.parseDouble(scan.next());
         int i;
         int n=8;
