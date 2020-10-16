@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4cca334-0e81-42cd-aa55-524de708b07a" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../10-homework/src/StuPro/mainStuPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-homework/src/StuPro/student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-homework/src/StuPro/student1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-homework/src/shape2/shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-homework/src/shape2/shapeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-homework/src/shape2/square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-homework/src/shape2/triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
